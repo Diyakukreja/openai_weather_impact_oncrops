@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Setup CORS to allow localhost and Vercel domains
-CORS(app, origins=["http://localhost:5173", "https://your-app.vercel.app"])
+CORS(app, origins=["http://localhost:5173"])
 
 # Initialize Cohere client
 api_key = "KRQgPTqXpE3pgOs89dY82DX4eEgdb4D75YWi8qYW"  # It's better to store API keys securely, not hard-coded
